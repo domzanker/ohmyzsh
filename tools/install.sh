@@ -34,15 +34,15 @@
 set -e
 
 # Default settings
-ZSH=${ZSH:-~/.oh-my-zsh}
-REPO=${REPO:-ohmyzsh/ohmyzsh}
+ZSH=${ZSH:-~/.config/ohmyzsh}
+REPO=${REPO:-domzanker/ohmyzsh}
 REMOTE=${REMOTE:-https://github.com/${REPO}.git}
 BRANCH=${BRANCH:-master}
 
 # Other options
 CHSH=${CHSH:-yes}
 RUNZSH=${RUNZSH:-yes}
-KEEP_ZSHRC=${KEEP_ZSHRC:-no}
+KEEP_ZSHRC=${KEEP_ZSHRC:-yes}
 
 
 command_exists() {
